@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\ChmComponent">
+      <UniqueIdentifier>{730d3a1d-42fc-48b7-be17-2746217ddea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ChmComponent">
+      <UniqueIdentifier>{2a10a1ab-15ff-48f7-9b74-3cced791dfea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ChmWindow.cpp">
+      <Filter>소스 파일\ChmComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ChmRenderManager.cpp">
+      <Filter>소스 파일\ChmComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ChmEngine.cpp">
+      <Filter>소스 파일\ChmComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChmWindow.h">
+      <Filter>헤더 파일\ChmComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ChmRenderManager.h">
+      <Filter>헤더 파일\ChmComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ChmEngine.h">
+      <Filter>헤더 파일\ChmComponent</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
