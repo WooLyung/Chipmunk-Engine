@@ -5,6 +5,7 @@
 * IDE : Visual Studio 2019
 * Direct2D : D2D1
 * DirectX : Direct11
+* 언어 : C++
 
 ## 저작권
 1. 다람쥐 엔진의 개발자는 이우령이며, 엔진에 대한 저작권은 이우령에게 있습니다.
